@@ -10,7 +10,7 @@ class CategoryCard extends StatelessWidget {
   Widget build(BuildContext context) {
     return Container(
       height: 120,
-      width: 180,
+      width: MediaQuery.of(context).size.width,
       decoration: BoxDecoration(
         image: DecorationImage(
             fit: BoxFit.fill,

@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:news_app/widgets/category.dart';
+import 'package:news_app/widgets/list.dart';
 
 class HomeScreen extends StatelessWidget {
   const HomeScreen({super.key});
@@ -17,7 +18,7 @@ class HomeScreen extends StatelessWidget {
               const Text(
                 'News',
                 style: TextStyle(
-                    color: Colors.blue,
+                    color: Colors.black,
                     fontWeight: FontWeight.bold,
                     fontSize: 27),
               ),
@@ -32,6 +33,7 @@ class HomeScreen extends StatelessWidget {
             ],
           ),
         ),
-        body: CategoryCard());
+        body: ListWidgets()
+        );
   }
 }
