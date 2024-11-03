@@ -17,7 +17,7 @@ class HomeScreen extends StatelessWidget {
               const Text(
                 'News',
                 style: TextStyle(
-                    color: Colors.black,
+                    color: Colors.blue,
                     fontWeight: FontWeight.bold,
                     fontSize: 27),
               ),
