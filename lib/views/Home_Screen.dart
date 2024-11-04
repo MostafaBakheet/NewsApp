@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:news_app/widgets/category.dart';
 import 'package:news_app/widgets/list.dart';
 
 class HomeScreen extends StatelessWidget {
@@ -12,17 +11,17 @@ class HomeScreen extends StatelessWidget {
           centerTitle: true,
           elevation: 0,
           backgroundColor: Colors.transparent,
-          title: Row(
+          title: const Row(
             mainAxisAlignment: MainAxisAlignment.center,
             children: [
-              const Text(
+               Text(
                 'News',
                 style: TextStyle(
                     color: Colors.black,
                     fontWeight: FontWeight.bold,
                     fontSize: 27),
               ),
-              const Text(
+               Text(
                 'App',
                 style: TextStyle(
                   color: Colors.orange,
@@ -33,7 +32,7 @@ class HomeScreen extends StatelessWidget {
             ],
           ),
         ),
-        body: ListWidgets()
+        body: const ListWidgets()
         );
   }
 }
